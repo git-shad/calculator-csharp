@@ -1,0 +1,128 @@
+﻿<Window x:Class="Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="572.945" Width="295.631" ResizeMode="NoResize" AllowsTransparency="True" WindowStyle="None" Background="{x:Null}" Foreground="{x:Null}">
+    <Grid>
+        <Rectangle Fill="#FF0C0B0B" HorizontalAlignment="Left" Height="573" VerticalAlignment="Top" Width="296" RadiusY="15.082" RadiusX="15.082" Opacity="0.92"/>
+        <Rectangle Fill="#FF131313" HorizontalAlignment="Left" Height="110" RadiusY="15.082" RadiusX="15.082" VerticalAlignment="Top" Width="270" Margin="12,89,0,0" Stroke="#FFB07623">
+            <Rectangle.Effect>
+                <DropShadowEffect Color="#FF767575" BlurRadius="10" ShadowDepth="2"/>
+            </Rectangle.Effect>
+        </Rectangle>
+        <Ellipse Fill="#FF191919" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="12,229,0,0">
+            <Ellipse.Effect>
+                <DropShadowEffect Color="White" ShadowDepth="1" RenderingBias="Quality" Direction="300" BlurRadius="10" Opacity="0.4"/>
+            </Ellipse.Effect>
+        </Ellipse>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="AC" VerticalAlignment="Top" Margin="26,243,0,0" FontSize="16" FontWeight="Bold" Foreground="#FFB07623"/>
+        <Ellipse Fill="#FF191919" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="84,229,0,0">
+            <Ellipse.Effect>
+                <DropShadowEffect Color="White" ShadowDepth="1" RenderingBias="Quality" Direction="300" BlurRadius="10" Opacity="0.4"/>
+            </Ellipse.Effect>
+        </Ellipse>
+        <Ellipse Fill="#FF191919" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="158,229,0,0">
+            <Ellipse.Effect>
+                <DropShadowEffect Color="White" ShadowDepth="1" RenderingBias="Quality" Direction="300" BlurRadius="10" Opacity="0.4"/>
+            </Ellipse.Effect>
+        </Ellipse>
+        <Ellipse Fill="#FF191919" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="232,229,0,0">
+            <Ellipse.Effect>
+                <DropShadowEffect Color="White" ShadowDepth="1" RenderingBias="Quality" Direction="300" BlurRadius="10" Opacity="0.4"/>
+            </Ellipse.Effect>
+        </Ellipse>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="/" VerticalAlignment="Top" Margin="105,243,0,0" FontSize="16" FontWeight="Bold" Foreground="#FFB07623"/>
+        <Ellipse Fill="#FF191919" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="12,298,0,0">
+            <Ellipse.Effect>
+                <DropShadowEffect Color="White" ShadowDepth="1" RenderingBias="Quality" Direction="300" BlurRadius="10" Opacity="0.4"/>
+            </Ellipse.Effect>
+        </Ellipse>
+        <Ellipse Fill="#FF191919" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="84,298,0,0">
+            <Ellipse.Effect>
+                <DropShadowEffect Color="White" ShadowDepth="1" RenderingBias="Quality" Direction="300" BlurRadius="10" Opacity="0.4"/>
+            </Ellipse.Effect>
+        </Ellipse>
+        <Ellipse Fill="#FF191919" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="158,298,0,0">
+            <Ellipse.Effect>
+                <DropShadowEffect Color="White" ShadowDepth="1" RenderingBias="Quality" Direction="300" BlurRadius="10" Opacity="0.4"/>
+            </Ellipse.Effect>
+        </Ellipse>
+        <Ellipse Fill="#FF191919" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="232,298,0,0">
+            <Ellipse.Effect>
+                <DropShadowEffect Color="White" ShadowDepth="1" RenderingBias="Quality" Direction="300" BlurRadius="10" Opacity="0.4"/>
+            </Ellipse.Effect>
+        </Ellipse>
+        <Ellipse Fill="#FF191919" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="12,366,0,0">
+            <Ellipse.Effect>
+                <DropShadowEffect Color="White" ShadowDepth="1" RenderingBias="Quality" Direction="300" BlurRadius="10" Opacity="0.4"/>
+            </Ellipse.Effect>
+        </Ellipse>
+        <Ellipse Fill="#FF191919" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="84,366,0,0">
+            <Ellipse.Effect>
+                <DropShadowEffect Color="White" ShadowDepth="1" RenderingBias="Quality" Direction="300" BlurRadius="10" Opacity="0.4"/>
+            </Ellipse.Effect>
+        </Ellipse>
+        <Ellipse Fill="#FF191919" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="158,366,0,0">
+            <Ellipse.Effect>
+                <DropShadowEffect Color="White" ShadowDepth="1" RenderingBias="Quality" Direction="300" BlurRadius="10" Opacity="0.4"/>
+            </Ellipse.Effect>
+        </Ellipse>
+        <Ellipse Fill="#FF191919" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="232,366,0,0">
+            <Ellipse.Effect>
+                <DropShadowEffect Color="White" ShadowDepth="1" RenderingBias="Quality" Direction="300" BlurRadius="10" Opacity="0.4"/>
+            </Ellipse.Effect>
+        </Ellipse>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="238,236,0,0" FontSize="37" FontWeight="Bold" Foreground="#FFB07623" FontFamily="Segoe MDL2 Assets" Text="&#xE926;"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="174,247,0,0" FontSize="16" FontWeight="Bold" Foreground="#FFB07623" FontFamily="Segoe MDL2 Assets" Text="&#xE10A;"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="249,316,0,0" FontSize="16" FontWeight="Bold" Foreground="#FFB07623" FontFamily="Segoe MDL2 Assets" Text="&#xF8AB;"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="249,384,0,0" FontSize="16" FontWeight="Bold" Foreground="#FFB07623" FontFamily="Segoe MDL2 Assets" Text="&#xE109;"/>
+        <Rectangle Fill="#FFB07623" HorizontalAlignment="Left" Height="120" RadiusY="20.5" RadiusX="20.5" VerticalAlignment="Top" Width="50" Margin="232,437,0,0" Stroke="#FFB07623">
+            <Rectangle.Effect>
+                <DropShadowEffect Color="#FF767575" BlurRadius="10" ShadowDepth="2"/>
+            </Rectangle.Effect>
+        </Rectangle>
+        <Ellipse Fill="#FF191919" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="12,437,0,0">
+            <Ellipse.Effect>
+                <DropShadowEffect Color="White" ShadowDepth="1" RenderingBias="Quality" Direction="300" BlurRadius="10" Opacity="0.4"/>
+            </Ellipse.Effect>
+        </Ellipse>
+        <Ellipse Fill="#FF191919" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="84,437,0,0">
+            <Ellipse.Effect>
+                <DropShadowEffect Color="White" ShadowDepth="1" RenderingBias="Quality" Direction="300" BlurRadius="10" Opacity="0.4"/>
+            </Ellipse.Effect>
+        </Ellipse>
+        <Ellipse Fill="#FF191919" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="158,437,0,0">
+            <Ellipse.Effect>
+                <DropShadowEffect Color="White" ShadowDepth="1" RenderingBias="Quality" Direction="300" BlurRadius="10" Opacity="0.4"/>
+            </Ellipse.Effect>
+        </Ellipse>
+        <Ellipse Fill="#FF191919" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="12,507,0,0">
+            <Ellipse.Effect>
+                <DropShadowEffect Color="White" ShadowDepth="1" RenderingBias="Quality" Direction="300" BlurRadius="10" Opacity="0.4"/>
+            </Ellipse.Effect>
+        </Ellipse>
+        <Ellipse Fill="#FF191919" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="84,507,0,0">
+            <Ellipse.Effect>
+                <DropShadowEffect Color="White" ShadowDepth="1" RenderingBias="Quality" Direction="300" BlurRadius="10" Opacity="0.4"/>
+            </Ellipse.Effect>
+        </Ellipse>
+        <Ellipse Fill="#FF191919" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="158,507,0,0">
+            <Ellipse.Effect>
+                <DropShadowEffect Color="White" ShadowDepth="1" RenderingBias="Quality" Direction="300" BlurRadius="10" Opacity="0.4"/>
+            </Ellipse.Effect>
+        </Ellipse>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="243,466,0,0" FontSize="40" FontWeight="Bold" Foreground="Black" Text="="/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Margin="31,450,0,0" FontSize="18" FontWeight="Bold" Foreground="#FFF9E2C0"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="2" VerticalAlignment="Top" Margin="104,450,0,0" FontSize="18" FontWeight="Bold" Foreground="#FFF9E2C0"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="3" VerticalAlignment="Top" Margin="179,450,0,0" FontSize="18" FontWeight="Bold" Foreground="#FFF9E2C0"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="4" VerticalAlignment="Top" Margin="31,378,0,0" FontSize="18" FontWeight="Bold" Foreground="#FFF9E2C0"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="5" VerticalAlignment="Top" Margin="104,378,0,0" FontSize="18" FontWeight="Bold" Foreground="#FFF9E2C0"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="6" VerticalAlignment="Top" Margin="178,378,0,0" FontSize="18" FontWeight="Bold" Foreground="#FFF9E2C0"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="7" VerticalAlignment="Top" Margin="31,312,0,0" FontSize="18" FontWeight="Bold" Foreground="#FFF9E2C0"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="8" VerticalAlignment="Top" Margin="104,310,0,0" FontSize="18" FontWeight="Bold" Foreground="#FFF9E2C0"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="9" VerticalAlignment="Top" Margin="179,310,0,0" FontSize="18" FontWeight="Bold" Foreground="#FFF9E2C0"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Margin="104,520,0,0" FontSize="18" FontWeight="Bold" Foreground="#FFF9E2C0"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="," VerticalAlignment="Top" Margin="181,520,0,0" FontSize="18" FontWeight="Bold" Foreground="#FFF9E2C0"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="%" VerticalAlignment="Top" Margin="29,520,0,0" FontSize="18" FontWeight="Bold" Foreground="#FFF9E2C0"/>
+
+    </Grid>
+</Window>
